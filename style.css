@@ -1,0 +1,83 @@
+/*Css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*For the body*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: #222;
+}
+/*For the card */
+.card {
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    width: 100%;
+    max-width: 420px;
+}
+/*For search box*/
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem 0;
+}
+/*for button*/
+
+/*for weather */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img.weathericon {
+    width: 8em;
+}
+/*For humidity and wind*/
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+/*For input*/
+input.searchbox {
+    text-align: center;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    padding: 0.2em 1.6em;
+    margin-left: 2rem;
+}
+/*for button*/
+button.btn {
+    margin-left: 0.6rem;
+    width: 2em;
+    height: 2em;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.weather{
+    display: none;
+}
+/*utility classes */
+.font {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+.font_s{
+    font-size: 1.2em;
+    margin-top: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.error{
+    text-align: left;
+    margin-left: 0.7rem;
+    display: none;
+}
